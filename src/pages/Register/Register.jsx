@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./register.css";
 
 const Register = () => {
@@ -22,7 +23,9 @@ const Register = () => {
             ideas, and experiences with the world.
           </p>
           <span>Already have an account?</span>
-          <button>Login</button>
+          <Link to="/login">
+            <button>Login</button>
+          </Link>
         </div>
       </div>
     </div>
