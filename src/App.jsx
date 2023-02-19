@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 
 import Home from "./pages/Home/Home";
 import Login from "./pages/Login/Login";
@@ -20,11 +21,13 @@ const App = () => {
 
   const Layout = () => {
     return (
-      <div>
+      <div className="layout">
         <Navbar />
         <div style={{ display: "flex" }}>
           <LeftBar />
-          <Outlet />
+          <div style={{ flex: 6 }}>
+            <Outlet />
+          </div>
           <RightBar />
         </div>
       </div>

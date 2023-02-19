@@ -1,10 +1,13 @@
 .navbar {
-  /* background-color: #e4e7fe; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
-  border-bottom: 1px solid lightslategrey;
+  /* border-bottom: 1px solid lightslategrey; */
+  box-shadow: 0px 0px 5px 5px #e4e7fe;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 
 .nav-left {
@@ -20,13 +23,13 @@
   padding: 5px;
   border-radius: 15px;
   border: 1px solid lightslategrey;
+  box-shadow: 0px 0px 3px 3px #e4e7fe;
 }
 
 .searchBar input {
   outline: none;
   width: 500px;
   border-radius: 15px;
-  text-indent: 12px;
   padding: 5px;
   border: none;
 }

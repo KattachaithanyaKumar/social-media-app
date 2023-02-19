@@ -1,0 +1,30 @@
+.rightbar {
+  flex: 3;
+  height: calc(100vh - 60px);
+  border: 1px solid #e4e7fe;
+  position: sticky;
+  top: 60px;
+  left: 0;
+  background-color: white;
+}
+
+.friends h3 {
+  margin: 10px;
+}
+
+.friends .user {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 12px;
+  margin: 10px;
+  transition: 0.2s ease;
+}
+
+.friends .user img {
+  width: 12%;
+}
+
+.friends .user:hover {
+  background-color: #e4e7fe;
+}
